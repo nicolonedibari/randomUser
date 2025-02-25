@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.card {
+    width: 300px;
+    background-color: white;
+    margin: 50px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ddd;
+}
+.card .info {
+    padding: 20px;
+}
+.card .info h2 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+.card .info p {
+    font-size: 16px;
+    color: #555;
+}
